@@ -1,0 +1,98 @@
+{
+  "tech_stack": [
+    "TypeScript",
+    "React 18",
+    "React Router 6",
+    "Vite",
+    "TailwindCSS 3",
+    "Express.js",
+    "Radix UI",
+    "Vitest",
+    "Zod",
+    "TanStack Query",
+    "Framer Motion",
+    "Three.js"
+  ],
+  "features": [
+    {
+      "name": "Landing Page Hero",
+      "description": "Main hero section with CTA and key marketing message",
+      "files": ["client/components/sections/Hero.tsx", "client/pages/Index.tsx"]
+    },
+    {
+      "name": "Pricing Section",
+      "description": "Pricing plans display with different tiers",
+      "files": ["client/components/sections/Pricing.tsx"]
+    },
+    {
+      "name": "Features Section",
+      "description": "Product features showcase",
+      "files": ["client/components/sections/Features.tsx"]
+    },
+    {
+      "name": "FAQ Accordion",
+      "description": "Frequently asked questions with accordion UI",
+      "files": ["client/components/sections/FAQ.tsx", "client/components/ui/accordion.tsx"]
+    },
+    {
+      "name": "Contact Form",
+      "description": "Contact form with validation",
+      "files": ["client/components/sections/Contact.tsx", "client/components/ui/form.tsx"]
+    },
+    {
+      "name": "Newsletter Subscription",
+      "description": "Email subscription form for newsletter",
+      "files": ["client/components/sections/Newsletter.tsx"]
+    },
+    {
+      "name": "Testimonials",
+      "description": "Customer testimonials carousel display",
+      "files": ["client/components/sections/Testimonials.tsx", "client/components/ui/carousel.tsx"]
+    },
+    {
+      "name": "Company Logos",
+      "description": "Partner company logos section",
+      "files": ["client/components/sections/CompanyLogos.tsx"]
+    },
+    {
+      "name": "Navigation Menu",
+      "description": "Main navigation bar with responsive design",
+      "files": ["client/components/Navbar.tsx", "client/components/Layout.tsx"]
+    },
+    {
+      "name": "Footer",
+      "description": "Footer with links and information",
+      "files": ["client/components/Footer.tsx"]
+    },
+    {
+      "name": "Responsive Layout",
+      "description": "Main layout wrapper with responsive design",
+      "files": ["client/components/Layout.tsx"]
+    },
+    {
+      "name": "API Client",
+      "description": "Express server with demo and ping endpoints",
+      "files": ["server/index.ts", "server/routes/demo.ts", "shared/api.ts"]
+    },
+    {
+      "name": "UI Component Library",
+      "description": "Pre-built Radix UI components with TailwindCSS styling",
+      "files": ["client/components/ui/button.tsx", "client/components/ui/card.tsx", "client/components/ui/input.tsx"]
+    },
+    {
+      "name": "Form Handling",
+      "description": "Form validation and submission utilities",
+      "files": ["client/components/ui/form.tsx", "client/lib/utils.ts"]
+    },
+    {
+      "name": "Mobile Detection",
+      "description": "Responsive mobile detection hook",
+      "files": ["client/hooks/use-mobile.tsx"]
+    },
+    {
+      "name": "Toast Notifications",
+      "description": "Toast notification system with Sonner",
+      "files": ["client/components/ui/toaster.tsx", "client/components/ui/sonner.tsx", "client/hooks/use-toast.ts"]
+    }
+  ]
+}

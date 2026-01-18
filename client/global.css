@@ -1,0 +1,162 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 120 42% 3%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 120 42% 3%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 42% 3%;
+
+    --primary: 120 42% 3%;
+    --primary-foreground: 120 10% 98%;
+
+    --secondary: 120 10% 96%;
+    --secondary-foreground: 120 42% 3%;
+
+    --muted: 120 10% 96%;
+    --muted-foreground: 120 4% 45%;
+
+    --accent: 120 10% 96%;
+    --accent-foreground: 120 42% 3%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 120 10% 98%;
+
+    --border: 120 7% 90%;
+    --input: 120 7% 90%;
+    --ring: 120 42% 3%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 120 42% 3%;
+    --foreground: 120 10% 98%;
+
+    --card: 120 42% 3%;
+    --card-foreground: 120 10% 98%;
+
+    --popover: 120 42% 3%;
+    --popover-foreground: 120 10% 98%;
+
+    --primary: 120 10% 98%;
+    --primary-foreground: 120 42% 3%;
+
+    --secondary: 120 10% 14%;
+    --secondary-foreground: 120 10% 98%;
+
+    --muted: 120 10% 14%;
+    --muted-foreground: 120 5% 65%;
+
+    --accent: 120 10% 14%;
+    --accent-foreground: 120 10% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 120 10% 98%;
+
+    --border: 120 10% 14%;
+    --input: 120 10% 14%;
+    --ring: 120 5% 84%;
+    
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+@layer utilities {
+  /* Responsive text utilities to match Figma design across breakpoints */
+  .text-display-responsive {
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -0.48px;
+  }
+
+  @media (min-width: 1024px) {
+    .text-display-responsive {
+      font-size: 84px;
+      letter-spacing: -0.84px;
+    }
+  }
+
+  .text-h1-responsive {
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.4px;
+  }
+
+  @media (min-width: 1024px) {
+    .text-h1-responsive {
+      font-size: 60px;
+      letter-spacing: -0.6px;
+    }
+  }
+
+  .text-h2-responsive {
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: -0.32px;
+  }
+
+  @media (min-width: 1024px) {
+    .text-h2-responsive {
+      font-size: 40px;
+      letter-spacing: -0.4px;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "FE-001",
+    "title": "Landing Page Load",
+    "description": "Verify landing page loads correctly with all sections",
+    "steps": [
+      "Navigate to home page",
+      "Wait for page to fully load",
+      "Verify hero section is visible",
+      "Verify all main sections render"
+    ]
+  },
+  {
+    "id": "FE-002",
+    "title": "Navigation Menu",
+    "description": "Test navigation menu functionality",
+    "steps": [
+      "Check if navigation menu is visible",
+      "Verify menu items are clickable",
+      "Check responsive behavior on mobile"
+    ]
+  },
+  {
+    "id": "FE-003",
+    "title": "Hero CTA Button",
+    "description": "Test hero section call-to-action button",
+    "steps": [
+      "Navigate to home page",
+      "Locate CTA button in hero section",
+      "Verify button is clickable",
+      "Verify button leads to correct section"
+    ]
+  },
+  {
+    "id": "FE-004",
+    "title": "Features Section",
+    "description": "Test features section display",
+    "steps": [
+      "Scroll to features section",
+      "Verify all features are displayed",
+      "Check feature cards are properly styled"
+    ]
+  },
+  {
+    "id": "FE-005",
+    "title": "Pricing Plans",
+    "description": "Test pricing section display",
+    "steps": [
+      "Scroll to pricing section",
+      "Verify all pricing tiers are visible",
+      "Check pricing cards layout"
+    ]
+  },
+  {
+    "id": "FE-006",
+    "title": "FAQ Accordion",
+    "description": "Test FAQ accordion functionality",
+    "steps": [
+      "Scroll to FAQ section",
+      "Click on FAQ item",
+      "Verify accordion expands and collapses",
+      "Check all FAQs are accessible"
+    ]
+  },
+  {
+    "id": "FE-007",
+    "title": "Contact Form",
+    "description": "Test contact form functionality",
+    "steps": [
+      "Scroll to contact section",
+      "Fill in form fields",
+      "Submit form",
+      "Verify form submission feedback"
+    ]
+  },
+  {
+    "id": "FE-008",
+    "title": "Newsletter Subscription",
+    "description": "Test newsletter subscription form",
+    "steps": [
+      "Scroll to newsletter section",
+      "Enter email address",
+      "Submit subscription form",
+      "Verify subscription confirmation"
+    ]
+  },
+  {
+    "id": "FE-009",
+    "title": "Testimonials Carousel",
+    "description": "Test testimonials carousel",
+    "steps": [
+      "Scroll to testimonials section",
+      "Verify carousel displays",
+      "Test carousel navigation"
+    ]
+  },
+  {
+    "id": "FE-010",
+    "title": "Footer Links",
+    "description": "Test footer links and information",
+    "steps": [
+      "Scroll to footer",
+      "Verify footer content displays",
+      "Check footer links are clickable"
+    ]
+  }
+]

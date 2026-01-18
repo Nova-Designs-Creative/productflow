@@ -1,0 +1,16 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:8080",
+  "executionArgs": {
+    "projectName": "productflow",
+    "projectPath": "c:\\Users\\Bren Punzalan\\Videos\\Nova Designs\\YouTube\\Sponsored Videos\\Relume\\productflow",
+    "testIds": [],
+    "additionalInstruction": "",
+    "envs": {
+      "API_KEY": "sk-user-0kXXu44pnyWZ5x0kLlEfvfxw4YAxfTxrsuYbYczBcJFhc5ZJOL4uzlfMV7_JT58X7JUoyHZeZRp7iioVI81rYJtCY8K3_6EAhPIKnkFNED_67xGcF_1P6XwuPV7PmcuY9PY"
+    }
+  },
+  "proxy": "http://9d0f7c0c-b053-46ed-8a17-9952b2b92225:J0huchlSgywwgJ6AdJUo8swgKRKofze3@tun.testsprite.com:8080"
+}
